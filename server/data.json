@@ -1,0 +1,50 @@
+[
+    {
+      "img": "http://example.com/img1.jpg",
+      "tokenName": "AlphaToken",
+      "symbol": "ALPS",
+      "decimals": 189,
+      "marketcap": 1000000,
+      "chain": "Ethereum"
+    },
+    {
+        "img": "http://example.com/img1.jpg",
+        "tokenName": "AlphaToken",
+        "symbol": "ALPG",
+        "decimals": 180,
+        "marketcap": 1000000,
+        "chain": "Ethereum"
+    },
+    {
+        "img": "http://example.com/img1.jpg",
+        "tokenName": "AlphaToken",
+        "symbol": "ALPQ",
+        "decimals": 179,
+        "marketcap": 1000000,
+        "chain": "Ethereum"
+    },
+    {
+        "img": "http://example.com/img1.jpg",
+        "tokenName": "AlphaToken",
+        "symbol": "ALPT",
+        "decimals": 178,
+        "marketcap": 1000000,
+        "chain": "Ethereum"
+    },
+    {
+        "img": "http://example.com/img1.jpg",
+        "tokenName": "AlphaToken",
+        "symbol": "ALPM",
+        "decimals": 177,
+        "marketcap": 1000000,
+        "chain": "Ethereum"
+    },
+    {
+        "img": "http://example.com/img1.jpg",
+        "tokenName": "AlphaToken",
+        "symbol": "ALPV",
+        "decimals": 176,
+        "marketcap": 1000000,
+        "chain": "Ethereum"
+    }
+]
