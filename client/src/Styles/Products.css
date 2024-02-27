@@ -1,0 +1,140 @@
+
+
+.main2 {
+    background-image: linear-gradient(to bottom, transparent 40%, #f9d22644 100%);
+}
+
+.main2>.bottomlefticon {
+    display: flex;
+    width: 572.407px;
+    height: 572.407px;
+    transform: rotate(0deg);
+    padding: 103.033px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    opacity: 0.7;
+    bottom: 0;
+    left: -10%;
+    animation: moving 1.5s ease-in-out infinite alternate;
+}
+@keyframes moving {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
+
+.main2>.bottomlefticon>div {
+    width: 366.341px;
+    height: 366.341px;
+    flex-shrink: 0;
+    fill: linear-gradient(136deg, #FFF 0.77%, rgba(255, 255, 255, 0.00) 101.96%);
+    opacity: 0.7;
+}
+
+.maintext h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.maintext>div>h1>span {
+    color: #FECC00;
+}
+
+.maintext>div>img {
+    position: absolute;
+    bottom: -15px;
+    right: -5px;
+}
+
+.maintext p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%;
+    /* 33.886px */
+}
+
+.child {
+    border: 3px solid transparent;
+    background: linear-gradient(5deg, #141411, #141411, #141411) padding-box,
+        linear-gradient(5deg, #F9D326, #252525, #F9D326) border-box;
+    border-radius: 12px;
+    backdrop-filter: blur(13px);
+    padding: 184px 8px 56px 8px;
+    cursor: pointer;
+}
+
+.child .childimg {
+    width: 159px;
+    height: 159px;
+    position: absolute;
+    left: 77px;
+    top: 16px;
+    transition: all 0.3s;
+}
+
+.child .topicon {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.child .bottomicon {
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.child:hover .childimg {
+    top: -60px;
+    transform: rotate(-15deg);
+}
+
+.child:hover .topicon {
+    top: -65px;
+    left: -55px;
+    opacity: 1;
+}
+
+.child:hover .bottomicon {
+    bottom: -65px;
+    right: -55px;
+    opacity: 1;
+}
+
+
+.child>div:nth-child(2)>p:nth-child(1) {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.388px;
+}
+
+.child>div:nth-child(2)>p:nth-child(3) {
+    color: #CFCFCF;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
