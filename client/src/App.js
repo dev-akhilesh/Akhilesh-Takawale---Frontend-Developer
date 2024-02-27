@@ -2,6 +2,8 @@ import './App.css';
 import { TopNavbar } from './Components/TopNavbar';
 import { Products } from './Components/Products';
 import { RoadMap } from './Components/RoadMap';
+import { Tokens } from './Components/Tokens';
+
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <TopNavbar />
       <Products />
       <RoadMap />
+      <Tokens />
+
     </div>
   );
 }

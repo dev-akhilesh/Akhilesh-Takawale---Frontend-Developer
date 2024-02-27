@@ -1,0 +1,128 @@
+.textbox3>div>h1 {
+    color: #ffffff;
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.textbox3>div>h1>span {
+    color: #FECC00;
+}
+
+.textbox3>div>img {
+    bottom: -15px;
+    right: -10px;
+}
+
+.textbox3>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 169.432%;
+}
+
+.tokenchild {
+    width: 314px;
+    padding: 184px 8px 40px 8px;
+    border-radius: 12px;
+    border: 3px solid transparent;
+    background: linear-gradient(5deg, #141411, #141411, #141411) padding-box,
+        linear-gradient(5deg, #F9D326, #252525, #F9D326) border-box;
+    backdrop-filter: blur(13px);
+    cursor: pointer;
+}
+
+.tokenchild>img {
+    width: 111px;
+    height: 111px;
+    left: 101px;
+    top: 40.112px;
+    transition: all 0.3s;
+}
+
+.tokenchild:hover img {
+    top: -1px;
+    transform: rotate(360deg);
+}
+
+.tokenchild>div:nth-child(3) {
+    border-radius: 100px;
+    border: 2px solid #FFF;
+    background: linear-gradient(95deg, #FECC00 -2.53%, #FEA800 102.53%);
+    color: #1C1C1C;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 169.432%;
+    transition: all 0.3s;
+}
+.tokenchild>div:nth-child(3):hover{
+    box-shadow: 0 0 20px #FECC00;
+}
+
+.tokenchildmid>h1 {
+    color: #FFF;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.388px;
+    margin: 8px 0;
+}
+
+.tokenchildmid>table td {
+    color: #CFCFCF;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 140%;
+}
+
+.tokenchildmid>table tr {
+    height: 30px;
+}
+
+.tokenchildmid>table tr>td:nth-child(1) {
+    font-weight: 600;
+}
+
+.tokenchildmid>table tr>td:nth-child(2) {
+    font-weight: 400;
+}
+.pagination{
+    margin-bottom: 250px;
+}
+.pagination>button {
+    display: flex;
+    padding: 8px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #344054;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.pagination>p {
+    color: #FFF;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
