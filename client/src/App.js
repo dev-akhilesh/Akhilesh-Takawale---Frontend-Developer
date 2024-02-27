@@ -3,6 +3,7 @@ import { TopNavbar } from './Components/TopNavbar';
 import { Products } from './Components/Products';
 import { RoadMap } from './Components/RoadMap';
 import { Tokens } from './Components/Tokens';
+import { Footer } from './Components/Footer';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Products />
       <RoadMap />
       <Tokens />
-
+      <Footer />
     </div>
   );
 }

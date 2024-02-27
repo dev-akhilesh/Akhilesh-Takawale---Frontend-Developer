@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "../Styles/Tokens.css";
 import yellowborder from "../assets/yellowborder.svg";
 import bitcoin from "../assets/bitcoin.png";
-// import brandlogo from "../assets/footer-logo.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
