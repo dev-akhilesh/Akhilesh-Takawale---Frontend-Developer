@@ -1,0 +1,117 @@
+.main3 {
+    background-image: linear-gradient(to bottom, #FECC00 65%, transparent 60%);
+}
+
+.textparent>h1 {
+    color: #000;
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textparent>div {
+    right: 100px;
+    bottom: -20px;
+}
+
+.scrollable {
+    padding: 0px 80px 0px 80px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 500px;
+    white-space: nowrap;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollchild>h1 {
+    text-align: center;
+    -webkit-text-stroke: 5px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.40);
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.scrollchild>.box {
+    border-radius: 20px;
+    background: #151821;
+    top: 115px;
+    left: 0;
+}
+
+.scrollchild>.box>div {
+    padding: 36px 16px;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    background: linear-gradient(5deg, #0d0E11, #0d0E11, #0d0E11) padding-box,
+        linear-gradient(5deg, #F9D326, #252525, #F9D326) border-box;
+    box-shadow: 2px 2px 32px 0px rgba(255, 255, 255, 0.15);
+}
+
+.boxtext {
+    overflow-wrap: break-word;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-wrap: wrap;
+}
+
+.boxtext>h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 100%;
+}
+
+.boxtext>p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 17px;
+}
+
+.boxtext>p:nth-child(3) {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.upside {
+    top: 95px;
+    left: 18%;
+}
+
+.upside2 {
+    top: 95px;
+    left: 20%;
+}
+
+.upsidetext {
+    top: 110px;
+    left: 36%;
+    color: #1C1C1C;
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.righticonmain {
+    width: 244px;
+    height: 244px;
+    top: 20px;
+    right: -5%;
+}
