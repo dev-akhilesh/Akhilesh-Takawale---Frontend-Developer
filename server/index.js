@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello, this is Matrix Labs API !');
+    res.send('Hello, this is a Matrix Labs API !');
 });
 
 app.get('/data', (req, res) => {
