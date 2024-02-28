@@ -10,6 +10,7 @@ import pentagon from "../assets/pentagon.png";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ConnectButton from "./ConnectButton";
 
 export function TopNavbar() {
 
@@ -40,10 +41,10 @@ export function TopNavbar() {
                         <a href="/">Roadmap</a>
                     </div>
 
-                    <button>
+                    {/* <button>
                         Connect Wallet
-                    </button>
-
+                    </button> */}
+                    <ConnectButton />
                 </div>
 
             </div>

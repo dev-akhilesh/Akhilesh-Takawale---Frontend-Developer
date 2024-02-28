@@ -1,0 +1,15 @@
+/* ConnectButton.css */
+.shared-button-style {
+    width: 187px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #f9d326;
+    color: #000;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.5px;
+    color: black;
+}
