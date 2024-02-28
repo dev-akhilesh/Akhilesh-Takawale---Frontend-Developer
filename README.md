@@ -23,7 +23,7 @@ A visually appealing web application developed based on the provided Figma desig
 **Footer Component**
 ![Footer](screenshots/footer.png)
 
-## Demo Video - [Click Here](https://drive.google.com/file/d/1SLT2CZhL8HV3_RFsMtpplB1i8ZdvP0oV/view?usp=sharing)
+## Demo Video - [Click Here](https://drive.google.com/file/d/17MSi0XT7MiLZnn3PN7dYXlDW1Xk-BN0G/view)
 
 ## Features
 
