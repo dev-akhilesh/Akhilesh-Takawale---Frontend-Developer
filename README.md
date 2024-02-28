@@ -77,11 +77,11 @@ Before you begin, ensure you have the following installed:
 
 # Project Links
 
-## ⚫Front-end:
+## Front-end:
 
 Explore the live site: [Matrix Labs Frontend](https://matrixlabs.vercel.app/)
 
-## ⚫Back-end:
+## Back-end:
 
 Check out the server: [Matrix Labs Backend](https://matrix-labs-api.onrender.com/data)
 
